@@ -88,13 +88,13 @@ extlinks = {
 #html_style = 'default.css'
 
 html_theme = 'default'
-if not on_rtd:
-    try:
-        import sphinx_rtd_theme
-        html_theme = 'sphinx_rtd_theme'
-        html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-    except ImportError:
-        pass
+# if not on_rtd:
+    # try:
+        # import sphinx_rtd_theme
+        # html_theme = 'sphinx_rtd_theme'
+        # html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+    # except ImportError:
+        # pass
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -127,7 +127,7 @@ html_last_updated_fmt = '%b %d, %Y'
 #html_copy_source = True
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Pastedoc'
+htmlhelp_basename = 'virtualenv'
 
 
 # Options for LaTeX output
